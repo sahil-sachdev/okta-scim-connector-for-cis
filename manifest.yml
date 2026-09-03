@@ -1,0 +1,9 @@
+applications:
+  - name: okta-cis-scim-adapter
+    memory: 256M
+    disk_quota: 512M
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
+    env:
+      NODE_ENV: production
