@@ -115,7 +115,7 @@ Set secrets with Cloud Foundry environment variables, not in `manifest.yml`:
 
 ```bash
 cf push --no-start
-cf set-env okta-cis-scim-adapter OKTA_DOMAIN integrator-3028619.okta.com
+cf set-env okta-cis-scim-adapter OKTA_DOMAIN test-tenant.okta.com
 cf set-env okta-cis-scim-adapter OKTA_CLIENT_ID replace-me
 cf set-env okta-cis-scim-adapter OKTA_KID replace-me
 cf set-env okta-cis-scim-adapter OKTA_PRIVATE_KEY "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"
